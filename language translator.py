@@ -1,5 +1,6 @@
 from googletrans import Translator, constants
 from pprint import pprint
+#using the ggogletrans library
 translator = Translator()
 users_word=input("your word to be translated")
 n=translator.detect(users_word)
